@@ -1,0 +1,14 @@
+flowchart LR
+    A[User uploads PDF] --> B[PDF extraction\npage metadata]
+    B --> C[Chunking\noverlap preserved]
+    C --> D[Sentence Transformer\nall-MiniLM-L6-v2]
+    D --> E[FAISS vector index]
+    E --> F[Top-k retrieval]
+    F --> G[Groq grounded answer\noptional]
+    F --> H[Retrieved passages + sources]
+    G --> I[Gemini final response\nAnswer + simple explanation + context]
+    H --> I
+    J[General user question] --> I
+    I --> K[Streamlit chat UI\nright user / left assistant]
+    E --> L[Saved local index]
+    L --> E

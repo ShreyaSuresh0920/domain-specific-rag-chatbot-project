@@ -1,0 +1,16 @@
+question,expected_behavior,expected_source,notes
+What is the project objective?,Answer from page 1 and explain simply,12569364-AI_May_Major_Project_3(1).pdf,page 1
+What problem does the chatbot solve?,Explain that large documents are hard to search manually,12569364-AI_May_Major_Project_3(1).pdf,page 1
+What is the project workflow?,List upload extraction chunking embedding retrieval and answer steps,12569364-AI_May_Major_Project_3(1).pdf,page 2
+Which tool is used for PDF text extraction?,Answer pypdf,12569364-AI_May_Major_Project_3(1).pdf,page 2
+Which embedding model is suggested?,Answer all-MiniLM-L6-v2,12569364-AI_May_Major_Project_3(1).pdf,page 2
+Which vector database is used?,Answer FAISS,12569364-AI_May_Major_Project_3(1).pdf,page 2
+What is the suggested chunk size?,Answer 700-1000 characters and explain the project setting,12569364-AI_May_Major_Project_3(1).pdf,page 3
+Why is chunk overlap used?,Explain that connected ideas are less likely to be separated,12569364-AI_May_Major_Project_3(1).pdf,page 3
+What metadata should be preserved during PDF extraction?,Answer source document and page number,12569364-AI_May_Major_Project_3(1).pdf,page 3
+What should happen when the answer is not in the documents?,Refuse to invent and say the documents lack a direct answer,12569364-AI_May_Major_Project_3(1).pdf,page 4
+What is RAG?,Give a simple general explanation and relate it to the app,General knowledge,No unsupported PDF claim
+What is an embedding in machine learning?,Explain in simple language and show how it helps semantic search,12569364-AI_May_Major_Project_3(1).pdf,page 2
+Who is the company CEO?,State that the PDF does not provide this information,Not available,Must not invent a name
+How can scanned PDFs be supported?,Explain OCR as an optional extension,12569364-AI_May_Major_Project_3(1).pdf,page 3
+What are the responsible AI requirements?,Mention key security privacy verification and prompt-injection protections,12569364-AI_May_Major_Project_3(1).pdf,page 6

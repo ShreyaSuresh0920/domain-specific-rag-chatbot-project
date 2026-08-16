@@ -1,0 +1,18 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+*.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Generated FAISS index
+vector_store/saved_index/
+
+# VS Code settings
+.vscode/

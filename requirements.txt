@@ -1,0 +1,12 @@
+streamlit
+pypdf
+langchain
+langchain-community
+langchain-text-splitters
+langchain-huggingface
+langchain-groq
+sentence-transformers>=3.0.0
+transformers>=4.41.0
+faiss-cpu
+python-dotenv
+requests
